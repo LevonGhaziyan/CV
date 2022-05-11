@@ -134,8 +134,8 @@ a:visited {
 
 .form-group input,
 .form-group textarea {
-  width: 100%;
-  box-sizing: border-box;
+  width: 100%; */
+  /* box-sizing: border-box;
   border: none;
   background: transparent;
   border-bottom: 1px solid #ccc;
