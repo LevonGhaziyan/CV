@@ -5,37 +5,43 @@
   <meta charset="UTF-8" />
   <title>Լևոն Ղազիյան</title>
   <link href="styles.css" rel="stylesheet" />
+  <script src="js.js"></script>
 </head>
 
 <body>
+  <button value="" onclick="lan_am()" class="lan" id="lan_am"><strong>ՀՅ</strong></button>
+  <button value="" onclick="lan_ru()" class="lan" id="lan_ru"><strong>РУ</strong></button>
+  <button value="" onclick="lan_en()" class="lan" id="lan_en"><strong>EN</strong></button>
   <div class="container">
     <div class="info">
-      <img src="avatar.jpg" alt="тут моя фотка" class="avatar" />
+      <img src="avatar.jpg" alt="тут моя фотка" class="avatar" onmousemove=""/>
 
       <div class="info-text">
-        <h1>Լևոն Ղազիյան</h1>
-        <p>Սիրում եմ զբաղվել սպորտով, ծրագրավորմամբ և մաթեմատիկայով</p>
+        <h1 id="title">Լևոն Ղազիյան</h1>
+        <p id="title1">Սիրում եմ զբաղվել սպորտով, ծրագրավորմամբ և մաթեմատիկայով:</p>
 
-        <h4>Իմ սոցիալական ցանցերը</h4>
+        <h4 id="sw">Իմ սոցիալական ցանցերը</h4>
 
         <a href="https://www.instagram.com/lghaziyan/" target="_blank">Instagram</a>
         |
         <a target="_blank" href="https://www.facebook.com/levon.gaziyan.3/">Facebook</a>
+        |
+        <a target="_blank" href="mailto: levonghaziyan@gmail.com">Gmail</a>
       </div>
 
     </div>
 
     <div class="card bg-yellow">
-      <h2>Իմ հոբիները</h2>
+      <h2 id="hobbies">Իմ հոբիները</h2>
       <ol class="list">
-        <li>Ծրագրավորող</li>
-        <li>Սպորտ։ ֆուտբոլ</li>
+        <li id="hobby1">Ծրագրավորում(2019թ-ից)</li>
+        <li id="hobby2">Սպորտ՝ ֆուտբոլ, շախմատ</li>
       </ol>
     </div>
 
 
     <div class="card bg-green">
-      <h2>Իմ աշխատանքները</h2>
+      <h2 id="works">Իմ աշխատանքները</h2>
       <ul class="link-list">
         <li><a href="http://trianglecalculate.am/">Calculator</a></li>
       </ul>
